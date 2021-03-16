@@ -8,10 +8,11 @@
 	<header>Welcome to the adventure game</header>
 	<div class="row">
 	<div class="column">
-			<button id="textbutton">Hello</button>
+	<button id="hellobutton">Hello</button>
 		<script>
-			document.getElementById('textbutton').onclick = function() {
-			var myTextNode = document.createTextNode('In this choose your own adventure game you will have text which will give you context as to what situation you are in and you will have buttons to the right which are the options that you are able to choose between,these will then send you onto the next section and allow you to make your next choice.');
+			document.getElementById('hellobutton').onclick = function() {
+			alert('Hello world!');
+			var myTextNode = document.createTextNode('Some new words.');
 			document.body.appendChild(myTextNode);
 			};
 		</script>
