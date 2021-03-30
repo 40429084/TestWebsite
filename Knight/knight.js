@@ -19,7 +19,7 @@ function deathFunction(){
 	};
 
 function homeFunction(){
-	home = new audio("../Sounds/homeSound.wav");
+	home = new Audio("../Sounds/homeSound.wav");
 	home.play();
 	};
 	
@@ -37,6 +37,6 @@ function offensiveFunction(){
 	};	
 
 function defensiveFunction(){
-	defense = new audio("../Sounds/defensive.wav");
+	defense = new Audio("../Sounds/defensive.wav");
 	defense.play();
 	};
