@@ -9,7 +9,7 @@ function caveFunction() {
 	};
 	
 function winnerFunction(){
-	winner = new Audio("Sounds/Winner.mp3");
+	winner = new Audio("../Sounds/Winner.mp3");
 	winner.play();
 	};
 	
@@ -19,7 +19,7 @@ function deathFunction(){
 	};
 
 function homeFunction(){
-	home = new audio("Sounds/homeSound.wav");
+	home = new audio("../Sounds/homeSound.wav");
 	home.play();
 	};
 	
@@ -29,4 +29,14 @@ function fightFunction(){
 
 function fleeFunction(){
 	alert("running is always an option if you dont think you can defeat the beast");
+	};
+	
+function offensiveFunction(){
+	offense = new audio("../Sounds/offensive.wav");
+	offense.play();
+	};	
+
+function defensiveFunction(){
+	defense = new audio("../Sounds/defensive.wav");
+	defense.play();
 	};
