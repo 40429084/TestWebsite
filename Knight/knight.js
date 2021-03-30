@@ -14,7 +14,7 @@ function winnerFunction(){
 	};
 	
 function deathFunction(){
-	death = new Audio("Sounds/GameOver.mp3");
+	death = new Audio("../Sounds/GameOver.mp3");
 	death.play();
 	};
 
