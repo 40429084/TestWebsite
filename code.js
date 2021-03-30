@@ -22,3 +22,11 @@ function homeFunction(){
 	home = new audio("homeSound.wav")
 	home.play();
 	};
+	
+function fightFunction(){
+	alert("Fighting the beast is dangerous and may have consequences");
+	};
+
+function fleeFunction(){
+	alert("running is always an option if you dont think you can defeat the beast");
+	};
