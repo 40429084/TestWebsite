@@ -32,7 +32,7 @@ function fleeFunction(){
 	};
 	
 function offensiveFunction(){
-	offense = new audio("../Sounds/offensive.wav");
+	offense = new Audio("../Sounds/offensive.wav");
 	offense.play();
 	};	
 
