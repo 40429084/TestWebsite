@@ -19,7 +19,7 @@ function deathFunction(){
 	};
 
 function homeFunction(){
-	home = new audio("Sounds/homeSound.wav")
+	home = new audio("Sounds/homeSound.wav");
 	home.play();
 	};
 	
