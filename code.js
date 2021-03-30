@@ -4,7 +4,7 @@ function jungleFunction(){
 	};
 
 function caveFunction() {
-	cave = new Audio("Sounds/caveSound.wav");
+	cave = new Audio("../Sounds/caveSound.wav");
 	cave.play();
 	};
 	
