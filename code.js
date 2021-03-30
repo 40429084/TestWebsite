@@ -1,25 +1,25 @@
 function jungleFunction(){
-	jungle = new Audio("JungleSound.wav");
+	jungle = new Audio("Sounds/JungleSound.wav");
 	jungle.play();
 	};
 
 function caveFunction() {
-	cave = new Audio("caveSound.wav");
+	cave = new Audio("Sounds/caveSound.wav");
 	cave.play();
 	};
 	
 function winnerFunction(){
-	winner = new Audio("Winner.mp3");
+	winner = new Audio("Sounds/Winner.mp3");
 	winner.play();
 	};
 	
 function deathFunction(){
-	death = new Audio("GameOver.mp3");
+	death = new Audio("Sounds/GameOver.mp3");
 	death.play();
 	};
 
 function homeFunction(){
-	home = new audio("homeSound.wav")
+	home = new audio("Sounds/homeSound.wav")
 	home.play();
 	};
 	
