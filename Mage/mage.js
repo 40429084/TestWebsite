@@ -9,17 +9,17 @@ function caveFunction() {
 	};
 	
 function winnerFunction(){
-	winner = new Audio("Sounds/Winner.mp3");
+	winner = new Audio("../Sounds/Winner.mp3");
 	winner.play();
 	};
 	
 function deathFunction(){
-	death = new Audio("Sounds/GameOver.mp3");
+	death = new Audio("../Sounds/GameOver.mp3");
 	death.play();
 	};
 
 function homeFunction(){
-	home = new audio("Sounds/homeSound.wav");
+	home = new Audio("../Sounds/homeSound.wav");
 	home.play();
 	};
 	
@@ -29,4 +29,14 @@ function fightFunction(){
 
 function fleeFunction(){
 	alert("running is always an option if you dont think you can defeat the beast");
+	};
+	
+function offensiveFunction(){
+	offense = new Audio("../Sounds/offensive.wav");
+	offense.play();
+	};	
+
+function defensiveFunction(){
+	defense = new Audio("../Sounds/defensive.wav");
+	defense.play();
 	};
